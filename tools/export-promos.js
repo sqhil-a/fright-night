@@ -9,7 +9,7 @@ const captures = [
     selector: ".post",
     output: "assets/fright-night-instagram-post.png",
     width: 1080,
-    height: 1080,
+    height: 1350,
   },
   {
     file: "promo/reel.html",

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">MYAC profile mark</title>
+  <desc id="desc">A bright green MYAC profile mark for the Fright Night navigation bar.</desc>
+  <defs>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.66 0 0 0 0 1 0 0 0 0 0.16 0 0 0 0.8 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="160" height="160" rx="34" fill="#a8ff2a" filter="url(#glow)"/>
+  <rect x="11" y="11" width="138" height="138" rx="26" fill="#b8ff4d" opacity="0.45"/>
+  <text
+    x="80"
+    y="96"
+    fill="#160616"
+    font-family="Inter, Arial, sans-serif"
+    font-size="42"
+    font-weight="900"
+    text-anchor="middle"
+  >MYAC</text>
+</svg>
