@@ -69,11 +69,12 @@ a {
 }
 
 .brand-mark {
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 2.75rem;
+  height: 2.75rem;
   object-fit: cover;
-  border-radius: 0.45rem;
-  box-shadow: 0 0 24px rgba(168, 255, 42, 0.38);
+  background: #fff;
+  border-radius: 0.35rem;
+  box-shadow: none;
 }
 
 .site-header nav a {

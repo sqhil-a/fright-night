@@ -1,25 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
-  <title id="title">MYAC profile mark</title>
-  <desc id="desc">A bright green MYAC profile mark for the Fright Night navigation bar.</desc>
-  <defs>
-    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.66 0 0 0 0 1 0 0 0 0 0.16 0 0 0 0.8 0"/>
-      <feMerge>
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  <rect width="160" height="160" rx="34" fill="#a8ff2a" filter="url(#glow)"/>
-  <rect x="11" y="11" width="138" height="138" rx="26" fill="#b8ff4d" opacity="0.45"/>
-  <text
-    x="80"
-    y="96"
-    fill="#160616"
-    font-family="Inter, Arial, sans-serif"
-    font-size="42"
-    font-weight="900"
-    text-anchor="middle"
-  >MYAC</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">MYAC profile picture</title>
+  <desc id="desc">MYAC blue wordmark on a white square background.</desc>
+  <rect width="240" height="240" fill="#ffffff"/>
+  <g fill="#7fb5e8">
+    <path d="M45 93h17.8l16.1 24.9L95 93h17.5v58.8H95.8v-32.1l-14.3 21.1h-5.6l-14.2-21.1v32.1H45V93Z"/>
+    <path d="M109.8 93h19.6l13.1 23.2L155.7 93h19.1l-24 38.6v20.2h-17.3v-20.2L109.8 93Z"/>
+    <path d="M160.1 122.6c0-17.7 13.5-31.1 32.2-31.1 12.3 0 22.1 5.2 27.4 14.3l-13.7 8.1c-2.9-4.7-7.2-7.2-13.2-7.2-9 0-15.2 6.5-15.2 15.9 0 9.5 6.2 16 15.2 16 6 0 10.3-2.5 13.2-7.3l13.7 8.2c-5.3 9.1-15.1 14.2-27.4 14.2-18.7 0-32.2-13.4-32.2-31.1Z"/>
+  </g>
 </svg>
