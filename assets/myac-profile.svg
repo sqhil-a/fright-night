@@ -2,9 +2,14 @@
   <title id="title">MYAC profile picture</title>
   <desc id="desc">MYAC blue wordmark on a white square background.</desc>
   <rect width="240" height="240" fill="#ffffff"/>
-  <g fill="#7fb5e8">
-    <path d="M45 93h17.8l16.1 24.9L95 93h17.5v58.8H95.8v-32.1l-14.3 21.1h-5.6l-14.2-21.1v32.1H45V93Z"/>
-    <path d="M109.8 93h19.6l13.1 23.2L155.7 93h19.1l-24 38.6v20.2h-17.3v-20.2L109.8 93Z"/>
-    <path d="M160.1 122.6c0-17.7 13.5-31.1 32.2-31.1 12.3 0 22.1 5.2 27.4 14.3l-13.7 8.1c-2.9-4.7-7.2-7.2-13.2-7.2-9 0-15.2 6.5-15.2 15.9 0 9.5 6.2 16 15.2 16 6 0 10.3-2.5 13.2-7.3l13.7 8.2c-5.3 9.1-15.1 14.2-27.4 14.2-18.7 0-32.2-13.4-32.2-31.1Z"/>
-  </g>
+  <text
+    x="120"
+    y="137"
+    fill="#7fb5e8"
+    font-family="Arial Black, Arial, Helvetica, sans-serif"
+    font-size="62"
+    font-weight="900"
+    letter-spacing="-7"
+    text-anchor="middle"
+  >MYAC</text>
 </svg>
