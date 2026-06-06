@@ -1,0 +1,16 @@
+{
+  "name": "myac-fright-night",
+  "version": "1.0.0",
+  "description": "Static GitHub Pages site and promotional material for the MYAC Connect Halloween event.",
+  "main": "script.js",
+  "scripts": {
+    "export:promos": "node tools/export-promos.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}

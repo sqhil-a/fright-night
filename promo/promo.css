@@ -1,0 +1,156 @@
+:root {
+  --cream: #fff4d8;
+  --orange: #ff8b1a;
+  --green: #a8ff2a;
+  --purple: #7b35ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: #090412;
+  color: var(--cream);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.stage {
+  padding: 24px;
+}
+
+.artboard {
+  position: relative;
+  overflow: hidden;
+  background: #12051e;
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.55);
+}
+
+.post {
+  width: 1080px;
+  height: 1080px;
+}
+
+.reel {
+  width: 1080px;
+  height: 1920px;
+}
+
+.background,
+.shade {
+  position: absolute;
+  inset: 0;
+}
+
+.background {
+  background-size: cover;
+  background-position: center;
+}
+
+.post-bg {
+  background-image: url("../assets/fright-night-hero.png");
+}
+
+.reel-bg {
+  background-image: url("../assets/fright-night-vertical.png");
+}
+
+.shade {
+  background:
+    radial-gradient(circle at 50% 45%, rgba(168, 255, 42, 0.12), transparent 280px),
+    linear-gradient(180deg, rgba(8, 4, 18, 0.12), rgba(8, 4, 18, 0.78)),
+    linear-gradient(90deg, rgba(8, 4, 18, 0.9), rgba(8, 4, 18, 0.2));
+}
+
+.copy {
+  position: absolute;
+  inset: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.reel-copy {
+  inset: 118px 82px;
+  justify-content: center;
+  padding-bottom: 360px;
+}
+
+.kicker,
+.tagline,
+.footer {
+  margin: 0;
+  font-weight: 900;
+}
+
+.kicker {
+  color: var(--green);
+  font-size: 38px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-shadow: 0 4px 28px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  max-width: 880px;
+  margin: 14px 0 22px;
+  color: var(--orange);
+  font-family: Creepster, Georgia, serif;
+  font-size: 190px;
+  font-weight: 400;
+  line-height: 0.82;
+  text-shadow:
+    0 0 26px rgba(255, 139, 26, 0.58),
+    0 10px 0 rgba(37, 8, 49, 0.9);
+}
+
+.reel h1 {
+  font-size: 220px;
+}
+
+.tagline {
+  max-width: 780px;
+  color: var(--cream);
+  font-size: 52px;
+  line-height: 1.02;
+  text-shadow: 0 5px 28px rgba(0, 0, 0, 0.84);
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 42px;
+}
+
+.details span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 76px;
+  padding: 0 26px;
+  color: #160616;
+  background: var(--green);
+  border: 5px solid rgba(255, 255, 255, 0.65);
+  border-radius: 18px;
+  font-size: 34px;
+  font-weight: 900;
+  box-shadow: 0 0 34px rgba(168, 255, 42, 0.42);
+}
+
+.stacked {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer {
+  margin-top: 34px;
+  color: #ffd36a;
+  font-size: 34px;
+  line-height: 1.1;
+  text-shadow: 0 5px 24px rgba(0, 0, 0, 0.84);
+}
